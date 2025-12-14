@@ -1,5 +1,5 @@
 {
-  "name": "context-env-gurard",
+  "name": "config-gurard",
   "version": "1.0.0",
   "description": "A declarative, type-safe configuration validator with contextual validation and auto-generated documentation.",
   "main": "dist/index.js",
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdobrynin/context-env-guard.git"
+    "url": "https://github.com/rdobrynin/configguard.git"
   },
   "bugs": {
-    "url": "https://github.com/rdobrynin/context-env-guard/issues"
+    "url": "https://github.com/rdobrynin/configguard/issues"
   },
-  "homepage": "https://github.com/rdobrynin/context-env-guard#readme",
+  "homepage": "https://github.com/rdobrynin/configguard#readme",
   "devDependencies": {
     "@types/node": "^20.x",
     "typescript": "^5.x",
