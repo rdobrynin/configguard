@@ -1,0 +1,40 @@
+{
+  "name": "context-env-gurard",
+  "version": "1.0.0",
+  "description": "A declarative, type-safe configuration validator with contextual validation and auto-generated documentation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "config",
+    "validation",
+    "environment",
+    "schema",
+    "typescript"
+  ],
+  "author": "Your Name <roman.dobrynin@gmail.com> (https://linkedin.com/in/rdobrynin)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdobrynin/context-env-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdobrynin/context-env-guard/issues"
+  },
+  "homepage": "https://github.com/rdobrynin/context-env-guard#readme",
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "typescript": "^5.x",
+    "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
