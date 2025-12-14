@@ -1,6 +1,6 @@
 {
   "name": "safecfg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A declarative, type-safe configuration validator with contextual validation and auto-generated documentation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
